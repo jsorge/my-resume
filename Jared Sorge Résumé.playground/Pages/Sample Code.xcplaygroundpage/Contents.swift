@@ -27,11 +27,15 @@ class HeroVC: UIViewController {
         return carousel
     }()
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
+    override func viewDidLoad() {
+        super.viewDidLoad()
         view.backgroundColor = .lightGray
-        let tileWidth = view.frame.size.width * 0.9
-        let tileHeight = view.frame.size.height * 0.6
+    }
+    
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.viewWillTransition(to: size, with: coordinator)
+        let tileWidth = size.width * 0.9
+        let tileHeight = size.height * 0.6
         carouselView.tileSize = CGSize(width: tileWidth, height: tileHeight)
     }
     
