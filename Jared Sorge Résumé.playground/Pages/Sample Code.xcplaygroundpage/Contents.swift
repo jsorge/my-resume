@@ -16,16 +16,6 @@ class HeroVC: UIViewController {
         view.backgroundColor = .lightGray
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        updateCarouseTile(forViewSize: view.frame.size)
-    }
-    
-    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
-        super.viewWillTransition(to: size, with: coordinator)
-        updateCarouseTile(forViewSize: size)
-    }
-    
     //MARK: - API
     func updateCarouselWithImages(_ ourHeroes: [HeroTile]) {
         carouselView.display(ourHeroes)
@@ -40,6 +30,7 @@ class HeroVC: UIViewController {
         carousel.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         carousel.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
         carousel.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+        carousel.tileSize = CGSize(width: 300.0, height: 300.0)
         
         // Toggle commenting out the following lines before the return to see some of the flexibility of the carousel
         carousel.isInifiniteScrolling = true
@@ -48,12 +39,6 @@ class HeroVC: UIViewController {
         
         return carousel
     }()
-    
-    private func updateCarouseTile(forViewSize viewSize: CGSize) {
-        let tileWidth = viewSize.width * 0.9
-        let tileHeight = viewSize.height * 0.9
-        carouselView.tileSize = CGSize(width: tileWidth, height: tileHeight)
-    }
 }
 
 struct HeroTile: CarouselTile {
