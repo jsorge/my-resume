@@ -1,6 +1,6 @@
-//: [Previous](@previous)
-
 /*:
+ [Previous](@previous)
+ 
  # Work History
  
  # University of Washington (Instructor: iOS Apps in Production)
@@ -41,6 +41,6 @@
  
  ## PCE iOS Advisory Board Member
  [University of Washington](https://www.pce.uw.edu/certificates/ios-application-development#modal_advisoryboard)
+ 
+ [Next](@next)
  */
-
-//: [Next](@next)
