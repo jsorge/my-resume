@@ -10,9 +10,31 @@ import PlaygroundSupport
  */
 
 class HeroVC: UIViewController {
-    lazy var carouselView: CarouselView = {
+    //MARK: - Override
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .lightGray
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        updateCarouseTile(forViewSize: view.frame.size)
+    }
+    
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.viewWillTransition(to: size, with: coordinator)
+        updateCarouseTile(forViewSize: size)
+    }
+    
+    //MARK: - API
+    func updateCarouselWithImages(_ ourHeroes: [HeroTile]) {
+        carouselView.display(ourHeroes)
+    }
+    
+    //MARK: - Private
+    private lazy var carouselView: CarouselView = {
         let carousel = CarouselView()
-            view.addSubview(carousel)
+        view.addSubview(carousel)
         carousel.translatesAutoresizingMaskIntoConstraints = false
         carousel.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
         carousel.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
@@ -27,20 +49,10 @@ class HeroVC: UIViewController {
         return carousel
     }()
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .lightGray
-    }
-    
-    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
-        super.viewWillTransition(to: size, with: coordinator)
-        let tileWidth = size.width * 0.9
-        let tileHeight = size.height * 0.6
+    private func updateCarouseTile(forViewSize viewSize: CGSize) {
+        let tileWidth = viewSize.width * 0.9
+        let tileHeight = viewSize.height * 0.9
         carouselView.tileSize = CGSize(width: tileWidth, height: tileHeight)
-    }
-    
-    func updateCarouselWithImages(_ ourHeroes: [HeroTile]) {
-        carouselView.display(ourHeroes)
     }
 }
 
