@@ -1,13 +1,13 @@
-//: [Previous](@previous)
-
-import UIKit
-import PlaygroundSupport
-
 /*:
+ [Previous](@previous)
+ 
  # Sample Code
  
  Here you can find some code that I wrote earlier this year to display a carousel of pageable views. The thing I really like about how it has turned out is that the API is approachable to get going, yet there are lots of customizations to get just the presentation that you want. Be sure to look at the CarouselView.swift file inside this playground's Sources folder
  */
+
+import UIKit
+import PlaygroundSupport
 
 class HeroVC: UIViewController {
     //MARK: - Override
