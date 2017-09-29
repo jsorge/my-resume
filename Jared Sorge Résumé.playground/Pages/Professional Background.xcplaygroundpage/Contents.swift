@@ -29,7 +29,9 @@
  
  ## Scorebook: Remember Your Games
  [http://taphouse.io/scorebook](http://taphouse.io/scorebook)
+ 
  **Released November 2014**
+ 
  An app to track card games, board games, dice games, and more and keeps a running history for you. Built using Core Data, CloudKit, Storyboards, Auto Layout, UICollectionViews, UITableViews, asynchronous networking, Core Location, UIAlertController, UIPageViewController, UIImagePickerController, custom view drawing, and custom theming throughout the app.
  
  ---
@@ -65,5 +67,6 @@
  ## LinkedIn
  [https://www.linkedin.com/in/jsorge](https://www.linkedin.com/in/jsorge/)
  
+ ---
  [Next](@next)
  */

@@ -2,9 +2,9 @@
  # Jared Sorge
  ### iOS Developer
  
- email: jared@jsorge.net
-
- phone: 425-418-6279
+ **email** jared@jsorge.net
+ 
+ **phone** 425-418-6279**
  
  ## About Me
  
