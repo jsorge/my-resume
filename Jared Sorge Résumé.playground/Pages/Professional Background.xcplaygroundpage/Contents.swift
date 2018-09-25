@@ -6,10 +6,13 @@
  # University of Washington (Instructor: iOS Apps in Production)
  **June 2016**
  I taught during the summer quarter for the UW. The topics were the app store and in-app purchases, notifications, and app extensions.
- 
+
+ # Lyft (Senior iOS Engineer)
+ **December 2017 - Present**
+
  # zulily LLC (Senior iOS Engineer)
- **January 2016 - Present**
- I am a leader of our mobile team, responsible for adding new features and maintaining our existing codebase. We use a mix of Objective-C and Swift. Our app uses NSOperations, extensive UICollectionViews, and blend both IB as well as building UI programatically. I performed our Swift 3 migration, rebuilt our product detail screen, and have led refactoring to modularize our codebase.
+ **January 2016 - December 2017**
+ I was a leader of our mobile team, responsible for adding new features and maintaining our existing codebase. We use a mix of Objective-C and Swift. Our app uses NSOperations, extensive UICollectionViews, and blend both IB as well as building UI programatically. I performed our Swift 3 migration, rebuilt our product detail screen, and have led refactoring to modularize our codebase.
  
  # General UI (iOS Developer)
  **July 2015 - January 2016**
@@ -28,7 +31,7 @@
  # Published App
  
  ## Scorebook: Remember Your Games
- [http://taphouse.io/scorebook](http://taphouse.io/scorebook)
+ [https://taphouse.io/scorebook](https://taphouse.io/scorebook)
  
  **Released November 2014**
  
@@ -59,7 +62,7 @@
  [https://jsorge.net](https://jsorge.net)
  
  ## Taphouse Software
- [http://taphouse.io](http://taphouse.io)
+ [https://taphouse.io](https://taphouse.io)
  
  ## GitHub
  [https://github.com/jsorge](https://github.com/jsorge)
