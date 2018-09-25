@@ -68,14 +68,3 @@ University of Washington
 
 * LinkedIn
 : [https://www.linkedin.com/in/jsorge](https://www.linkedin.com/in/jsorge/)
-
-------
-
-### In the Community {#community}
-
-* Seattle Xcoders Organizer
-: [http://seattlexcoders.org](http://seattlexcoders.org)
-
-* PCE iOS Advisory Board Member
-: [University of Washington](https://www.pce.uw.edu/certificates/ios-application-development#modal_advisoryboard)
-
