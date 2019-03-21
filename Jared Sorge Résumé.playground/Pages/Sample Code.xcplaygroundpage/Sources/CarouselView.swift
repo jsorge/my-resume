@@ -307,7 +307,7 @@ open class CarouselView: UIView, UIScrollViewDelegate {
         _scrollView.delegate = self
         addGestureRecognizer(_scrollView.panGestureRecognizer)
         addSubview(pageControl)
-        bringSubview(toFront: pageControl)
+        bringSubviewToFront(pageControl)
     }
     
     private var _extraTiles = [UIView]()

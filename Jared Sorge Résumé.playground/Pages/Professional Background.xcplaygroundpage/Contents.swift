@@ -2,17 +2,18 @@
  [Previous](@previous)
  
  # Employment History
- 
- # University of Washington (Instructor: iOS Apps in Production)
- **June 2016**
- I taught during the summer quarter for the UW. The topics were the app store and in-app purchases, notifications, and app extensions.
 
  # Lyft (Senior iOS Engineer)
  **December 2017 - Present**
+ I'm on the Driver Onboarding team, where we are responsible for large portions of reusable workflows utilized by many teams around the company. I joined as a member of the communications platform team, streamlining our notification code and implementing user preferences for their notifications. I've helped to streamline internal tooling, and refactored our statically built settings screens into more flexible and maintainable components.
 
  # zulily LLC (Senior iOS Engineer)
  **January 2016 - December 2017**
  I was a leader of our mobile team, responsible for adding new features and maintaining our existing codebase. We use a mix of Objective-C and Swift. Our app uses NSOperations, extensive UICollectionViews, and blend both IB as well as building UI programatically. I performed our Swift 3 migration, rebuilt our product detail screen, and have led refactoring to modularize our codebase.
+
+ # University of Washington (Instructor: iOS Apps in Production)
+ **June 2016**
+ I taught during the summer quarter for the UW. The topics were the app store and in-app purchases, notifications, and app extensions.
  
  # General UI (iOS Developer)
  **July 2015 - January 2016**
@@ -28,9 +29,16 @@
  
  ---
  
- # Published App
- 
- ## Scorebook: Remember Your Games
+ # Projects
+
+ ## Maverick Blog Engine
+ [https://github.com/jsorge/maverick](https://github.com/jsorge/maverick)
+
+ **Released July 2018**
+
+ A blog engine that I wrote using Swift and the [Vapor](https://vapor.codes) framework. It uses [textbundle](http://textbundle.org) files for storage, making portability very easy. It generates feeds in multiple formats automatically and can work with full-length content as well as shorter posts without titles. Deploying is automated through Docker, shell scripts, and git.
+
+ ## Scorebook Game Journal
  [https://taphouse.io/scorebook](https://taphouse.io/scorebook)
  
  **Released November 2014**
@@ -48,11 +56,11 @@
  
  # In the Community
  
- ## Seattle Xcoders Organizer
- [http://seattlexcoders.org](http://seattlexcoders.org)
+ ## Seattle Xcoders Organizer (Current)
+ [https://xcoders.org](https://xcoders.org)
  
- ## PCE iOS Advisory Board Member
- [University of Washington](https://www.pce.uw.edu/certificates/ios-application-development#modal_advisoryboard)
+ ## PCE iOS Advisory Board Member (2015-2018)
+ [University of Washington](https://www.pce.uw.edu/)
  
  ---
  
