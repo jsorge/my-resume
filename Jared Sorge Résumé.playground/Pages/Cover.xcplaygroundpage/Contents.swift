@@ -4,7 +4,7 @@
  
  **email** jared@jsorge.net
  
- **phone** 425-418-6279**
+ **phone** 425-418-6279
  
  ## About Me
  
