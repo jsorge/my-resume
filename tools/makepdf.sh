@@ -2,9 +2,11 @@
 
 if [ ! -d "markdown-resume" ]; then
 	git clone https://github.com/there4/markdown-resume.git
-	pushd ./markdown-resume
-	composer install
-	popd
 fi
+
+pushd ./markdown-resume
+git checkout tags/2.3.1
+composer install
+popd
 
 ./markdown-resume/bin/md2resume pdf ./Jared-Sorge-Resume.md .
