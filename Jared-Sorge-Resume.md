@@ -1,8 +1,7 @@
 # Jared Sorge
 ## iOS Developer
 
-> [jared@jsorge.net](jared@jsorge.net)  
-> (425) 418-6279
+> [jared@jsorge.net](jared@jsorge.net)
 
 ------
 
