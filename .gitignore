@@ -1,3 +1,5 @@
 .DS_Store
 *.xcuserstate
 /markdown-resume
+/vended
+/.tmp_pdf_source.html
