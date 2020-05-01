@@ -1,15 +1,14 @@
 PHONY: pdf
-pdf: ensure-md2resume
+pdf: ensure-pandoc ensure-wkhtmltopdf
 	@chmod +x ./tools/makepdf.sh
 	@./tools/makepdf.sh
 
-PHONY: ensure-md2resume
-ensure-md2resume:
-	@chmod +x ./tools/ensure-md2resume.sh
-	@./tools/ensure-md2resume.sh
+PHONY: ensure-pandoc
+ensure-pandoc:
+	@chmod +x ./tools/ensure-pandoc.sh
+	@./tools/ensure-pandoc.sh
 
-PHONY: example
-example:
-	./vended/markdown-resume/bin/md2resume pdf \
-		./vended/markdown-resume/examples/source/sample.md \
-		./vended/markdown-resume/examples/output/
+PHONY: ensure-wkhtmltopdf
+ensure-wkhtmltopdf:
+	@chmod +x ./tools/ensure-wkhtmltopdf.sh
+	@./tools/ensure-wkhtmltopdf.sh

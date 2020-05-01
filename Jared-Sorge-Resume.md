@@ -24,7 +24,7 @@ A blog engine powered by the [Vapor](https://vapor.codes) framework written in S
 Lyft
 : *Senior iOS Engineer*
 **December 2017 - Present**
-I'm on the Driver Onboarding team, where we are responsible for large portions of reusable workflows utilized by many teams around the company. I joined as a member of the communications platform team, streamlining our notification code and implementing user preferences for their notifications. I've helped to streamline internal tooling, and refactored our statically built settings screens into more flexible and maintainable components.
+I'm on the Driver Onboarding team, where we are responsible for large portions of reusable workflows utilized by many teams around the company. I joined as a member of the communications platform team, streamlining our notification code and implementing user preferences for their notifications. I've helped to create tooling which helps all of our iOS developers, and refactored our statically built settings screens into more flexible and maintainable components.
 
 University of Washington
 : *Instructor: iOS Apps in Production*
@@ -34,7 +34,7 @@ I taught during the summer quarter for the UW. The topics were the app store and
 zulily
 : *Senior iOS Engineer*
 **January 2016 - December 2017**
-I was a leader of our mobile team, responsible for adding new features and maintaining our existing codebase. We use a mix of Objective-C and Swift. Our app uses NSOperations, extensive UICollectionViews, and blend both IB as well as building views programatically. I performed our Swift 3 migration, rebuilt our product detail screen by myself, and always look for ways to improve our codebase.
+I was a leader of our mobile team, responsible for adding new features and maintaining our existing codebase. We use a mix of Objective-C and Swift. Our app makes heavy use of NSOperations, UICollectionViews, and blend both IB as well as building views programatically. I performed our Swift 3 migration, rebuilt our product detail screen by myself, and always look for ways to improve our codebase.
 
 General UI
 : *iOS Developer*
