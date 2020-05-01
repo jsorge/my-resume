@@ -301,7 +301,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
  .container {
      margin: 0 auto;
      padding: 0;
-     background: whiteSmoke;
      border: solid #666;
      border-width: 8px 0 2px 0;
      text-align: left;
@@ -447,7 +446,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
      text-align: center;
 }
 
- @media screen and (min-width: 37.5em) {
+ @media screen, print and (min-width: 37.5em) {
      body {
          padding: 2em 0;
     }
@@ -472,7 +471,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 }
 
 
-@media screen and (min-width: 57em) {
+@media screen, print and (min-width: 57em) {
      .container {
          width: 912px;
     }

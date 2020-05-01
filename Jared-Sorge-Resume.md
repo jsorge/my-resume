@@ -23,8 +23,8 @@ A blog engine powered by the [Vapor](https://vapor.codes) framework written in S
 
 Lyft
 : *Senior iOS Engineer*
-**December 2017 - Present**
-I'm on the Driver Onboarding team, where we are responsible for large portions of reusable workflows utilized by many teams around the company. I joined as a member of the communications platform team, streamlining our notification code and implementing user preferences for their notifications. I've helped to create tooling which helps all of our iOS developers, and refactored our statically built settings screens into more flexible and maintainable components.
+**December 2017 - May 2020**
+At Lyft I contributed to the codebases for both Rider and Driver apps, creating reusable workflows that were originally for my team (Driver Onboarding) but were utilized around the company. These were primarily camera-based for things like scanning a driver's license or taking a profile picture. I helped usher in our move to a modularized codebase by writing a tool to let developers make new modules, and added tooling to bring our code into a Swift Playground for rapid iteration.
 
 University of Washington
 : *Instructor: iOS Apps in Production*
