@@ -53,7 +53,7 @@ At Solomon I primarily worked with one client, building for them a customer port
 * Personal Site
   : [https://jsorge.net](https://jsorge.net)
 
-* Taphouse Software
+* Taphouse SW
   : [https://taphouse.io](https://taphouse.io)
 
 * LinkedIn

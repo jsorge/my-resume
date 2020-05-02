@@ -6,4 +6,6 @@ Here you'll find the résumé for me, [Jared Sorge](https://jsorge.net). I've pu
 * [PDF](https://github.com/jsorge/my-resume/blob/master/Jared-Sorge-Resume.pdf)
 * [Swift Playground](https://github.com/jsorge/my-resume/tree/master/Jared%20Sorge%20Résumé.playground)
 
-The most fun way to check this out is using Swift Playgrounds on an iPad or Mac. Enjoy!
+The most fun way to check this out is using Swift Playgrounds on an iPad. Enjoy!
+
+If you want to see how the whole thing is compiled, look at the [raw Markdown file](https://raw.githubusercontent.com/jsorge/my-resume/master/Jared-Sorge-Resume.md), and then the [`make pdf` command](https://github.com/jsorge/my-resume/blob/master/Makefile#L2).
