@@ -302,7 +302,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
      margin: 0 auto;
      padding: 0;
      border: solid #666;
-     border-width: 8px 0 2px 0;
+     border-width: 8px 0 0 0;
      text-align: left;
 }
  .resume {
@@ -477,7 +477,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
     }
      .resume {
          position: relative;
-         padding: 40px 50px;
+         padding: 0px 50px;
     }
      blockquote {
          top: 40px;

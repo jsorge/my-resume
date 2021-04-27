@@ -21,6 +21,11 @@ A blog engine powered by the [Vapor](https://vapor.codes) framework written in S
 
 ### Work History {#work-history}
 
+Zulily
+: *Senior iOS Engineer*
+**June 2020 - Present**
+I rejoined Zulily and became part of the Core Site & Apps team. We are infrastructure-focused, and I've done projects to help support our mobile apps. On the iOS side I've implemented programatic project generation with Tuist to enable modularizing our codebase, migrated our dependencies to Swift Package Manager for easy management, and streamlined our Continuous Integration processes with Jenkins and Fastlane. More broadly I've built tooling to automate building new app releases for both iOS and Android and created a weekly release cadence to ensure reliable app delivery.
+
 Lyft
 : *Senior iOS Engineer*
 **December 2017 - May 2020**
@@ -40,11 +45,6 @@ General UI
 : *iOS Developer*
 **July 2015 - January 2016**
 I worked on 2 big projects for General UI: a live streaming video app (think Periscope), and on-site at zulily. I worked on projects in both Objective-C and an Objective-C/Swift mix. I also helped develop version control procedures and best practices as well. Features that I've worked on have shipped as part of zulily's app, used by millions of customers all over the world.
-
-Solomon Solution
-: *Technical Consultant*
-**May 2014 - June 2015**
-At Solomon I primarily worked with one client, building for them a customer portal using ASP.NET MVC on the front-end, and ASP.NET Web API 2 on the back-end. I wrote unit-tests for the API component of the project to make sure things were working properly. I prototyped a couple of iOS apps: a customizable bingo game written in Swift, and a simple storefront application.
 
 ------
 

@@ -3,6 +3,9 @@ pdf: ensure-pandoc ensure-wkhtmltopdf
 	@chmod +x ./tools/makepdf.sh
 	@./tools/makepdf.sh
 
+PHONY: html
+html: ensure-pandoc ensure-wkhtmltopdf
+
 PHONY: ensure-pandoc
 ensure-pandoc:
 	@chmod +x ./tools/ensure-pandoc.sh
