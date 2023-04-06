@@ -21,10 +21,15 @@ A blog engine powered by the [Vapor](https://vapor.codes) framework written in S
 
 ### Work History {#work-history}
 
+Adobe
+: *Senior iOS Engineer*
+**March 2022 - Present**
+I joined Adobe to build a new video editor for iOS – Project Violet. On that project we use SwiftUI and AVFoundation to do most of the work, with some UIKit sprinkled in as well. I created the feature to adjust the speed of a clip while editing on the timeline and as part of that work I built out a custom slider control that will be used across Adobe's mobile apps.
+
 Zulily
 : *Senior iOS Engineer*
-**June 2020 - Present**
-I rejoined Zulily and became part of the Core Site & Apps team. We are infrastructure-focused, and I've done projects to help support our mobile apps. On the iOS side I've implemented programatic project generation with Tuist to enable modularizing our codebase, migrated our dependencies to Swift Package Manager for easy management, and streamlined our Continuous Integration processes with Jenkins and Fastlane. More broadly I've built tooling to automate building new app releases for both iOS and Android and created a weekly release cadence to ensure reliable app delivery.
+**June 2020 - February 2022**
+I rejoined Zulily and became part of the Core Site & Apps team. We are infrastructure-focused, and I've done projects to help support our mobile apps. On the iOS side I've implemented programatic project generation with Tuist to enable modularizing our codebase, migrated our dependencies to Swift Package Manager for easy management, and streamlined our Continuous Integration processes with Jenkins and Fastlane. More broadly I've built tooling to automate building new app releases for both iOS and Android and created a weekly release cadence to ensure reliable app delivery. Lastly I completely rebuilt our analytics and networking stacks in the iOS app to be modernized, built using Swift with overlays for legacy Objective-C compatibility.
 
 Lyft
 : *Senior iOS Engineer*
@@ -40,11 +45,6 @@ zulily
 : *Senior iOS Engineer*
 **January 2016 - December 2017**
 I was a leader of our mobile team, responsible for adding new features and maintaining our existing codebase. We use a mix of Objective-C and Swift. Our app makes heavy use of NSOperations, UICollectionViews, and blend both IB as well as building views programatically. I performed our Swift 3 migration, rebuilt our product detail screen by myself, and always look for ways to improve our codebase.
-
-General UI
-: *iOS Developer*
-**July 2015 - January 2016**
-I worked on 2 big projects for General UI: a live streaming video app (think Periscope), and on-site at zulily. I worked on projects in both Objective-C and an Objective-C/Swift mix. I also helped develop version control procedures and best practices as well. Features that I've worked on have shipped as part of zulily's app, used by millions of customers all over the world.
 
 ------
 
